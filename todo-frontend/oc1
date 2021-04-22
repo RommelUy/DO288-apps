@@ -1,0 +1,4 @@
+oc new-app --as-deployment-config --name backend \
+nodejs:12~https://github.com/RommelUy/DO288-apps#review-service \
+--context-dir todo-backend \
+--build-env npm_config_repository=https://
